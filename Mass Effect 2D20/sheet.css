@@ -1889,7 +1889,7 @@ body .charactersheet div.npc .switch {
 .sheet-rolltemplate-foskill .sheet-hidden-skill[data-i18n-placeholder*=big_guns] ~ .sheet-container .sheet-big_guns,
 .sheet-rolltemplate-foskill .sheet-hidden-skill[data-i18n-placeholder*=energy_weapons] ~ .sheet-container .sheet-energy_weapons,
 .sheet-rolltemplate-foskill .sheet-hidden-skill[data-i18n-placeholder*=explosives] ~ .sheet-container .sheet-explosives,
-.sheet-rolltemplate-foskill .sheet-hidden-skill[data-i18n-placeholder*=lockpick] ~ .sheet-container .sheet-lockpick,
+.sheet-rolltemplate-foskill .sheet-hidden-skill[data-i18n-placeholder*=security-hacking] ~ .sheet-container .sheet-security-hacking,
 .sheet-rolltemplate-foskill .sheet-hidden-skill[data-i18n-placeholder*=medicine] ~ .sheet-container .sheet-medicine,
 .sheet-rolltemplate-foskill .sheet-hidden-skill[data-i18n-placeholder*=melee_weapons] ~ .sheet-container .sheet-melee_weapons,
 .sheet-rolltemplate-foskill .sheet-hidden-skill[data-i18n-placeholder*=pilot] ~ .sheet-container .sheet-pilot,
