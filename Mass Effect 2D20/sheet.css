@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tahoma:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;900&display=swap');
 
 body .charactersheet * {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-size: 10px;
 }
 
@@ -13,7 +13,7 @@ body .charactersheet * {
 .repcontrol_move {
     background: url('https://raw.githubusercontent.com/Leminski/roll20-character-sheets/master/Mass%20Effect%202D20/images/sort.png')
         center / contain no-repeat border-box;
-    background-color: white;
+    background-color: orange;
     width: 15px;
     height: 15px;
     padding: 2px 10px;
@@ -103,7 +103,7 @@ body .charactersheet * {
 }
 .charactersheet h1,
 .charactersheet h1 * {
-    font: bold 20px 'Roboto', sans-serif;
+    font: bold 20px 'Tahoma', sans-serif;
 	width: 50%;
     padding: 5px 5px 5px 35px;
     margin: 0 0 5px -30px;
@@ -114,7 +114,7 @@ body .charactersheet * {
 }
 .charactersheet h2,
 .charactersheet h2 * {
-    font: bold 10px 'Roboto', sans-serif;
+    font: bold 10px 'Tahoma', sans-serif;
 	width: 200px;
     padding: 5px;
     margin: 0 0 5px 0;
@@ -131,7 +131,7 @@ body .charactersheet * {
 .charactersheet .creation h2 *,
 .charactersheet .npc h2 {
     position: relative;
-    font: bold 20px 'Roboto', sans-serif;
+    font: bold 20px 'Tahoma', sans-serif;
     width: 100%;
     background: none;
     color: black;
@@ -166,7 +166,7 @@ body .charactersheet * {
 }
 .charactersheet h3,
 .charactersheet h3 * {
-    font: bold 10px 'Roboto', sans-serif;
+    font: bold 10px 'Tahoma', sans-serif;
     padding: 5px 0;
     margin: 0;
     box-sizing: border-box;
@@ -211,8 +211,8 @@ strong {
 }
 .tabs button,
 .subtabs button {
-    font: 10px 'Roboto', sans-serif;
-    background: white;
+    font: 10px 'Tahoma', sans-serif;
+    background: orange;
     padding: 0 5px;
     border: none;
     text-transform: uppercase;
@@ -235,7 +235,7 @@ strong {
 .tabs .tabstoggle[value="items"] ~ div.tab-items,
 .tabs .tabstoggle[value="npc"] ~ div.tab-npc,
 .tabs .tabstoggle[value="settings"] ~ div.tab-settings {
-    background: white;
+    background: blue;
     border-top: solid 2px black;
     border-left: solid 2px black;
     border-right: solid 2px black;
@@ -309,7 +309,7 @@ body .charactersheet .finalize {
 }
 
 .roll-dice {
-    background: white;
+    background: blue;
     position: absolute;
     top: 0;
     right: 0;
@@ -322,7 +322,7 @@ body .charactersheet .finalize {
 
 .attribute-value ~ button,
 .attribute-value ~ span {
-    color: white;
+    color: orange;
     border: none;
     height: 20px;
     margin-left: 5px;
@@ -374,7 +374,7 @@ body .charactersheet div .col5 .luckpts label {
     text-align: right;
 }
 body .charactersheet div .col5 .luckpts input[type=number] {
-    background: url('https://raw.githubusercontent.com/Leminski/roll20-character-sheets/master/Mass%20Effect%202D20/images/gear.png') center no-repeat;
+    background: url('https://raw.githubusercontent.com/Leminski/roll20-character-sheets/master/Mass%20Effect%202D20/images/adren.png') center no-repeat;
     background-size: contain;
     height: auto;
     margin: -18px 0;
@@ -470,7 +470,7 @@ body .charactersheet div .col7 .luck label,
 .attribute-value[value="8"] ~ button.value-8,
 .attribute-value[value="9"] ~ button.value-9,
 .attribute-value[value="10"] ~ button.value-10 {
-    background: white;
+    background: blue;
     color: black;
     border-radius: 2px;
 }
@@ -482,12 +482,12 @@ body .charactersheet div .col7 .luck label,
 .confirm-button xbutton {
     font-weight: bold;
     background: #e0b829;
-    color: white;
+    color: orange;
     border: solid 1px #e0b829;
     border-radius: 2px;
 }
 .confirm-button button:hover {
-    background: white;
+    background: orange;
     color: #e0b829;
 }
 .confirm-button em {
@@ -512,7 +512,7 @@ body .charactersheet div .col7 .luck label,
     align-self: center;
 }
 .special .header {
-    font: bold 10px 'Roboto', sans-serif;
+    font: bold 10px 'Tahoma', sans-serif;
 	display: inline-block;
 	width: 100%;
     padding: 0 0 5px 0;
@@ -523,7 +523,7 @@ body .charactersheet div .col7 .luck label,
     text-transform: uppercase;
 }
 .special .value {
-    font: bold 20px 'Roboto', sans-serif;
+    font: bold 20px 'Tahoma', sans-serif;
 	display: inline-block;
 	width: 100%;
     padding: 0;
@@ -540,7 +540,7 @@ body .charactersheet div .col7 .luck label,
     grid-template-rows: 25px auto;
 }
 .level .header {
-    font: bold 10px 'Roboto', sans-serif;
+    font: bold 10px 'Tahoma', sans-serif;
 	display: inline-block;
 	width: 100%;
     padding: 15px 0 0 0;
@@ -551,7 +551,7 @@ body .charactersheet div .col7 .luck label,
     text-transform: uppercase;
 }
 .level .value {
-    font: bold 20px 'Roboto', sans-serif;
+    font: bold 20px 'Tahoma', sans-serif;
 	display: inline-block;
 	width: 100%;
     padding: 0;
@@ -609,7 +609,7 @@ body .charactersheet div .col2 .melee-damage[value="3"] ~ .die3 {
 }
 
 .charactersheet .logo .doc-subtitle {
-    font: bold 10px 'Roboto', sans-serif;
+    font: bold 10px 'Tahoma', sans-serif;
     padding: 5px;
     margin: 0;
     box-sizing: border-box;
@@ -726,7 +726,7 @@ body .charactersheet div .col2 .melee-damage[value="3"] ~ .die3 {
 
 .charactersheet label,
 .label {
-    font: bold 10px 'Roboto', sans-serif;
+    font: bold 10px 'Tahoma', sans-serif;
 	display: inline-block;
 	width: 100%;
     height: 20px;
@@ -765,7 +765,7 @@ body .charactersheet div .col2 .melee-damage[value="3"] ~ .die3 {
 body .charactersheet div .grid input,
 .charactersheet select,
 .input  {
-    font: 10px 'Roboto', sans-serif;
+    font: 10px 'Tahoma', sans-serif;
 	display: inline-block;
 	width: 100%;
     height: 20px;
@@ -887,7 +887,7 @@ body .charactersheet div .grid input.level {
 }
 .skills-grid div,
 .skills-grid-mini div {
-    font: normal 8px 'Roboto', sans-serif;
+    font: normal 8px 'Tahoma', sans-serif;
     height: 20px;
     line-height: 20px;
     box-sizing: border-box;
@@ -905,7 +905,7 @@ body .charactersheet div .grid input.level {
 }
 .skills-grid div.header,
 .skills-grid-mini div.header {
-    font: bold 10px 'Roboto', sans-serif;
+    font: bold 10px 'Tahoma', sans-serif;
     padding: 5px;
     background: black;
     color: white;
@@ -937,7 +937,7 @@ body .charactersheet div .grid input.level {
 .charactersheet .skills-grid div label,
 .charactersheet .skills-grid-mini div label,
 .charactersheet .skills-grid-mini div button[type=roll]  {
-    font: normal 10px 'Roboto', sans-serif;
+    font: normal 10px 'Tahoma', sans-serif;
     display: inline-block;
     width: auto;
     height: auto;
@@ -955,7 +955,7 @@ body .charactersheet div .grid input.level {
     content: '';
 }
 body .charactersheet .skills-grid div input[type=number] {
-    font: 10px 'Roboto', sans-serif;
+    font: 10px 'Tahoma', sans-serif;
     display: inline-block;
     width: 100%;
     height: 20px;
@@ -1324,14 +1324,14 @@ body .charactersheet div .col1 .health input[type=number] {
     margin: 0px 20px 10px 0;
 }
 .rep-grid-header div {
-    font: bold 10px 'Roboto', sans-serif;
+    font: bold 10px 'Tahoma', sans-serif;
     background: black;
     color: white;
     text-transform: uppercase;
     padding: 5px 2px;
 }
 .rep-grid ~ .repcontainer .repitem div {
-    font: normal 8px 'Roboto', sans-serif;
+    font: normal 8px 'Tahoma', sans-serif;
     background: white;
     color: black;
 }
@@ -1542,7 +1542,7 @@ E2F0E7
 }
 
 body .charactersheet div .grid .npc-bio h2 input {
-    font: bold 20px 'Roboto', sans-serif;
+    font: bold 20px 'Tahoma', sans-serif;
     text-transform: uppercase;
 }
 
@@ -1559,7 +1559,7 @@ body .charactersheet div .grid .npc-bio h2 input {
 .charactersheet .npc-bio label,
 body .charactersheet div .grid .npc-bio input,
 .charactersheet .npc-bio select {
-    font: italic bold 12px 'Roboto', sans-serif;
+    font: italic bold 12px 'Tahoma', sans-serif;
     line-height: 20px;
     box-shadow: none;
     padding: 0;
@@ -1617,7 +1617,7 @@ body .charactersheet div .grid .npc-bio input,
     grid-template: repeat(2, 1fr) / repeat(7, 1fr);
 }
 .npc .header {
-    font: bold 10px 'Roboto', sans-serif;
+    font: bold 10px 'Tahoma', sans-serif;
     padding: 5px;
     background: black;
     box-shadow: 0 0 0 1px black;
@@ -1647,7 +1647,7 @@ body .charactersheet .npc-stats .checker *:nth-child(4n) input {
 
 .npc .skills button[type=roll].skill-btn,
 .npc .repitem button[type=roll].skill-btn  {
-    font: bold 10px 'Roboto', sans-serif;
+    font: bold 10px 'Tahoma', sans-serif;
     display: inline-block;
     width: auto;
     height: auto;
